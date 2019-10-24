@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>예약하기</title>
+<style>
+html {
+background: url(./tokyo.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-position: center;
+}
+</style>
+<link type="text/css" rel="stylesheet" href="./style.css"></link>
+  </head>
+  <body>
+<link href="https://fonts.googleapis.com/css?family=Song+Myung&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+<br><center><h1>예약</h1>
+<h2>予約</h2><br><br>
+<p>*전날 예약만 가능합니다.*</p>
+    <table>
+        <form>
+          <tr><td><p>-성함 :</p></td><td><input type='text'></td></tr>
+          <tr><td><p>-전화번호 :</p></td><td>
+           <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<select>
+           <option>선택</option>
+           <option>010</option>
+           </select>-<input type='text'>-<input type='text'></p></td></tr>
+           <tr><td><p>-인원수 :</p></td><td><p><input type='radio' name=group value=open> 1인
+                                   <input type='radio' name=group value=notopen> 2인
+                                   <input type='radio' name=group value=notopen> 3인
+                                   <input type='radio' name=group value=notopen> 4인
+                                   &nbsp&nbsp&nbsp*5인 이상의 단체 손님은 받지 않습니다.*</p></td></tr>
+           <tr><td><p>-오실 시간 :</p></td><td><p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<select>
+             <option>0~1시</option><option>1~2시</option><option>2~3시</option><option>3~4시</option><option>4~5시</option><option>5~6시</option><option>6~7시</option>
+           </select></p></td></tr>
+          <tr><td><p>-남기실 말씀 :</p>&nbsp&nbsp&nbsp
+         <td><textarea rows='5' cols='60'></textarea></td></tr>
+        </form>
+    </table><br><br><br>
+<button type='button'>확인</button>
+</center>
+  </body>
+</html>
